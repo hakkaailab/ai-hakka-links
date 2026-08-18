@@ -56,10 +56,10 @@ body {
 }
 
 .bio-card h1 {
-  max-width: 72%;
+  max-width: 68%;
   margin: 0;
   color: #0068aa;
-  font-size: 5.1cqw;
+  font-size: 4.6cqw;
   font-weight: 800;
   letter-spacing: 0.01em;
   line-height: 1.15;
@@ -89,7 +89,7 @@ body {
   position: absolute;
   top: -5%;
   right: 5%;
-  width: 24%;
+  width: 20%;
   aspect-ratio: 1;
   border: 1px solid rgb(0 104 170 / 9%);
   border-radius: 50%;
