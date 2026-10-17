@@ -64,11 +64,7 @@
 
 請保留透明背景，以及機器人各張圖片相同的畫布尺寸。PNG 檔名大小寫必須一致。
 
-頁首目前使用暫用符號。加入正式 Logo 時，把圖片存為 `assets/lab-logo.png`，再將 `index.html` 內 `.logo-slot` 的內容改成：
-
-```html
-<img src="assets/lab-logo.png" alt="智慧客家實驗室 Logo">
-```
+頁首正式 Logo 位於 `assets/lab-logo.png`，由 `index.html` 的 `.lab-brand-logo` 顯示。原圖的透明留白由 SVG 視窗處理，沒有修改圖片內容。替換成不同尺寸的 Logo 時，請同步調整 SVG 的 `viewBox`。
 
 ## 專案結構
 
