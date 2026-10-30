@@ -86,3 +86,4 @@ README.md         本說明
 
 
 手機版同樣保留星系軌道圖；`galaxy-mobile.js` 處理單指拖曳、雙指縮放、放大縮小與全圖重設。上傳時請包含此檔案，並一起更新 `index.html`、`galaxy.css`。
+

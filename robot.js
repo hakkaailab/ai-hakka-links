@@ -3,12 +3,17 @@
     '你好，𠊎係阿知牯',
     '歡迎來到智慧客家實驗室',
     '這位有當多个客語智慧人工智慧應用',
-    '當歡喜認識你'
+    '當歡喜認識你',
+    '客庄所需，聯大所趨',
+    '今晡日个科技 ，天光日个客家',
+    'gimˊ buˊ ngidˋgekoˊ giˊ，tienˊ gongˊ ngidˋge　hagˋ gaˊ'
   ];
   const stage = document.querySelector('.azhi-stage');
   if (!stage) return;
   const frames = [...stage.querySelectorAll('.azhi-frame')];
-  const dots = [...stage.querySelectorAll('.azhi-progress i')];
+  const progress = stage.querySelector('.azhi-progress');
+  progress.replaceChildren();
+  const dots = messages.map(() => { const dot = document.createElement('i'); progress.append(dot); return dot; });
   const message = stage.querySelector('#azhi-message');
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   let elapsed = 0, last = 0, raf = 0, visible = true, ready = false;
