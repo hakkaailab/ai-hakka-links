@@ -20,7 +20,7 @@
     {id:'go',kind:'app',title:'Gohakka',sub:'平台 V2',label:'應用成果',desc:'透過客華雙向翻譯與語音服務，讓客語更自然地走進日常。',url:'https://gohakka.org/',x:110,y:600},
     {id:'podcast',kind:'app',title:'客家國大細事',sub:'Podcast',label:'應用成果',desc:'探索客語與聲音的相遇，製作屬於自己的廣播節目。',url:'https://podcast.gohakka.org/',x:890,y:600}
   ];
-  mount.innerHTML = `<div class="eco-heading"><div><span class="eco-kicker">THE HAKKA AI UNIVERSE</span><h2>一個持續擴展的<br><em>臺灣客家 AI 生態系。</em></h2></div></div><div class="eco-shell"><div class="eco-toolbar"><div class="eco-legend"><span>AI 主權</span><span>AI 技術</span><span>應用情境</span><span>應用成果</span></div></div><div class="galaxy" role="group" aria-label="客家 AI 星系圖"></div></div>`;
+  mount.innerHTML = `<div class="eco-heading"><div><h2>一個持續擴展的<br><em>臺灣客家 AI 生態系。</em></h2></div></div><div class="eco-shell"><div class="eco-toolbar"><div class="eco-legend"><span>AI 主權</span><span>AI 技術</span><span>應用情境</span><span>應用成果</span></div></div><div class="galaxy" role="group" aria-label="客家 AI 星系圖"></div></div>`;
   const graph = mount.querySelector('.galaxy');
   const ns = 'http://www.w3.org/2000/svg';
   const svg = document.createElementNS(ns,'svg'); svg.setAttribute('viewBox','0 0 1000 720'); svg.setAttribute('aria-hidden','true');
