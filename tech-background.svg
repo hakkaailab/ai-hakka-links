@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000" fill="none">
+ <defs><linearGradient id="line" x1="0" y1="0" x2="1440" y2="1000" gradientUnits="userSpaceOnUse"><stop stop-color="#007bff" stop-opacity=".12"/><stop offset=".5" stop-color="#348fc9" stop-opacity=".045"/><stop offset="1" stop-color="#007bff" stop-opacity=".11"/></linearGradient></defs>
+ <g stroke="url(#line)" stroke-width="1">
+  <circle cx="1400" cy="200" r="210"/><circle cx="1400" cy="200" r="235"/><circle cx="1400" cy="200" r="270" stroke-dasharray="2 12"/>
+  <ellipse cx="1400" cy="200" rx="310" ry="100" transform="rotate(-38 1400 200)"/>
+  <circle cx="-70" cy="800" r="220"/><circle cx="-70" cy="800" r="255" stroke-dasharray="3 11"/><ellipse cx="-70" cy="800" rx="310" ry="100" transform="rotate(35 -70 800)"/>
+  <path d="M0 200h65l42 42v90l40 40h60 M0 220h50l38 38v90l40 40h60 M1440 650h-65l-45 45v110l-48 48h-100 M1440 673h-52l-37 37v108l-48 48h-91"/>
+  <path d="M245 50l40-23 40 23v46l-40 23-40-23z M245 50l40 24 40-24 M285 74v45"/>
+  <path d="M1095 880l29-17 29 17v34l-29 17-29-17z M1095 880l29 17 29-17 M1124 897v34"/>
+ </g>
+ <g fill="#007bff" opacity=".1"><circle cx="207" cy="372" r="3"/><circle cx="188" cy="388" r="2"/><circle cx="1182" cy="853" r="3"/><circle cx="1212" cy="866" r="2"/><circle cx="1240" cy="139" r="4"/><circle cx="108" cy="651" r="3"/></g>
+ <g stroke="#007bff" opacity=".09"><path d="M115 110h12m-6-6v12 M1270 480h12m-6-6v12 M210 925h12m-6-6v12"/></g>
+</svg>
